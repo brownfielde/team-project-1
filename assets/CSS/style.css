@@ -20,9 +20,21 @@ body {
     font-size: 48px;
 }
 
- h2 {
-    font-size: 2rem;
-    color: black;
+ section {
+    width: 70%;
+    margin: 20px auto;
+    border: 5px solid black;
+    background-color: white;
+ }
+
+ .aside {
+    width: 20%;
+    height:100px;
+    margin-right: 20px ;
+    border: 5px solid black;
+    display:inline-block;
+    background-color: white;
+    justify-content: flex-start;
  }
 
  .box {
@@ -34,11 +46,18 @@ body {
     justify-content: space-around;
  }
 
- section {
-    width: 70%;
-    margin: 20px auto;
-    border-radius: 5px solid black;
-    background-color: white;
+h2 {
+    font-size: 2rem;
+    color: black;
  }
 
+ .image {
+    width:auto;
+    height:auto;
+    padding: auto;
+    border: 2px solid black;
+    margin: auto;
+    justify-content: center;
+ }
 
+ 
