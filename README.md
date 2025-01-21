@@ -5,6 +5,6 @@ A webpage dedicated to helping those re-entering education again after a signifi
 This webpage application features several different components that cover helpful tips and information pertaining to studying, acclimating to the classroom via zoom, test prep and more.
 
 # Getting Started
-Must have: JavaScript and API, HTML, CSS.
+
 
 
