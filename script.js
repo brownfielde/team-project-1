@@ -18,6 +18,8 @@ document.querySelector('#redirect-class-prep')
     })
 
 
+
+
 //function openWindow(){
    // myWindow = window.open("","myWindow","width=200,height=100");
 //}

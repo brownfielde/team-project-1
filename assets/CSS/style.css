@@ -22,9 +22,10 @@ body {
 }
 
  section {
-    width: 70%;
+    width: 50%;
+    height:70%;
     margin: 20px auto;
-    border: 5px solid black;
+    border: 5px solid white;
     background-color: white;
  }
 
@@ -37,6 +38,7 @@ body {
     background-color: white;
     justify-content: flex-start;
  }
+
 
  .box {
     text-decoration: black;
