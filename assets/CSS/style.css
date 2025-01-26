@@ -64,6 +64,58 @@ h2 {
     justify-content: center;
  }
 
+ .video {
+   max-width: 50%;
+   max-height: 50%;
+    padding: auto;
+    border: 2px solid black;
+    margin: auto;
+    justify-content: center;
+ }
+
+ .button{
+   /*background: lightskyblue;*/
+   padding: 0.6em  0.6em;
+   color: black;
+   border: 0;
+ }
+
+ .button:hover{
+   background: lightskyblue;
+ }
+
+ .modal{
+   display:none;
+   position: fixed;
+   z-index: 1;
+   left: 0; 
+   top: 0;
+   height: 100%;
+   width: 100%;
+   overflow: auto;
+   background-color:rgba(0,0,0,0.2);
+ }
+
+ .modal-content{
+   background-color: black;
+   margin: 20% auto;
+   padding: 20px;
+   width:70%;
+   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+ }
+
+ .closeBtn{
+   color: white;
+   float: right;
+   font-size: 30px;
+ }
+
+ .closeBtn:hover,.closeBtn:focus{
+   color: lightskyblue;
+   text-decoration: none;
+   cursor:pointer;
+ }
+
  /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.

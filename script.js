@@ -1,3 +1,33 @@
+//get modal element
+let modal = document.getElementById('simpleModal');
+// get open modal button
+let modalBtn = document.getElementById('modalBtn');
+// get close button 
+let closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+//listen for open click
+modalBtn.addEventListener('click', openModal);
+//listen for close click
+closeBtn.addEventListener('click', closeModal);
+//listen for outside click
+window.addEventListener('click', outsideClick)
+
+//function to open modal
+function openModal(){
+    modal.style.display = 'block';
+}
+//function to close modal
+function closeModal(){
+    modal.style.display = 'none';
+}
+function outsideClick(e){
+    if(e.target == modal){
+    modal.style.display = 'none';
+    }
+}
+
+
+
 document.querySelector('#redirect-classroom')
     .addEventListener('click',() => {
         window.location.href = 'online-classroom.html';
@@ -15,6 +45,10 @@ document.querySelector('#redirect-test-prep')
 document.querySelector('#redirect-class-prep')
     .addEventListener('click',() => {
         window.location.href = 'class-prep.html';
+    })
+document.querySelector('#redirect-time-management')
+    .addEventListener('click',() => {
+        window.location.href = 'time-management.html';
     })
 
 
