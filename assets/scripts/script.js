@@ -25,7 +25,6 @@ function outsideClick(e){
     modal.style.display = 'none';
     }
 }
-
 document.querySelector('#pure-menu-link')
     .addEventListener('click',() => {
         window.location.href = 'about.html';
