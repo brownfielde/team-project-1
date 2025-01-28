@@ -11,6 +11,10 @@ Web browsers such as Google Chrome, Firefox, Safari etc., are required for the w
 For beginners-offers and interactive experience to help familiarize with a new form of learning. 
 For Learners who have experience-this offers a refresher along with the opportunity to hone one's knowledge of it.
 
+# Assets
+The following image demonstrates the web application's appearance and functionality:
+
+
 # Support
 Support for this webpage is currently unavailable, however the interface should not cause any issues.
 
