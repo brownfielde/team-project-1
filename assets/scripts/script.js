@@ -25,10 +25,7 @@ function outsideClick(e){
     modal.style.display = 'none';
     }
 }
-document.querySelector('#pure-menu-link')
-    .addEventListener('click',() => {
-        window.location.href = 'about.html';
-    })
+
 
 document.querySelector('#redirect-classroom')
     .addEventListener('click',() => {
